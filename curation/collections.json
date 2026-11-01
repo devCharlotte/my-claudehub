@@ -1,0 +1,1741 @@
+{
+ "note": "공개 페이지·README에는 나오지 않는 큐레이션(모음집) 목록과, 각 모음집에서 이미 가져온 항목 기록입니다. scripts/collect_candidates.py가 이 파일을 읽어 아직 안 가져온 후보를 찾아줍니다.",
+ "collections": [
+  {
+   "repo": "punkpeye/awesome-mcp-servers",
+   "url": "https://github.com/punkpeye/awesome-mcp-servers",
+   "desc": "가장 큰 MCP 서버 목록",
+   "detail": "검색·DB·브라우저·금융 등 카테고리별로 수천 개 MCP 서버를 정리한 목록이에요. '이런 MCP 있나?' 싶을 때 여기부터 찾아보세요."
+  },
+  {
+   "repo": "ComposioHQ/awesome-claude-skills",
+   "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+   "desc": "실무용 Claude 스킬 큐레이션",
+   "detail": "문서 처리, 개발, 데이터 분석, 마케팅 등 분야별 스킬을 모은 목록이에요. Composio 연동으로 500개 넘는 앱과 연결하는 방법도 담겨 있어요."
+  },
+  {
+   "repo": "hesreallyhim/awesome-claude-code",
+   "url": "https://github.com/hesreallyhim/awesome-claude-code",
+   "desc": "Claude Code 리소스 베스트 모음",
+   "detail": "슬래시 명령어, CLAUDE.md 예시, 훅, 워크플로우, 관련 도구를 엄선한 목록이에요."
+  },
+  {
+   "repo": "VoltAgent/awesome-openclaw-skills",
+   "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+   "desc": "OpenClaw 스킬 5,400개+",
+   "detail": "OpenClaw(구 클로드봇) 개인 비서용 스킬 모음이에요."
+  },
+  {
+   "repo": "sickn33/agentic-awesome-skills",
+   "url": "https://github.com/sickn33/agentic-awesome-skills",
+   "desc": "재사용 스킬 2,800개+",
+   "detail": "Claude Code·Codex·Cursor 등에서 쓰는 스킬을 대량으로 모은 저장소예요. 설치 스크립트로 한 번에 넣을 수 있어요."
+  },
+  {
+   "repo": "github/awesome-copilot",
+   "url": "https://github.com/github/awesome-copilot",
+   "desc": "깃허브 공식 Copilot 지침·스킬 모음",
+   "detail": "커뮤니티가 기여한 지침, 에이전트, 스킬 모음으로 Claude에도 응용할 수 있어요."
+  },
+  {
+   "repo": "VoltAgent/awesome-agent-skills",
+   "url": "https://github.com/VoltAgent/awesome-agent-skills",
+   "desc": "공식 팀 스킬 1,000개+ 모음",
+   "detail": "Vercel, Cloudflare, Supabase 같은 회사가 직접 만든 공식 에이전트 스킬 위주로 정리했어요."
+  },
+  {
+   "repo": "alirezarezvani/claude-skills",
+   "url": "https://github.com/alirezarezvani/claude-skills",
+   "desc": "분야별 스킬 380개+",
+   "detail": "마케팅·제품·엔지니어링·컴플라이언스 등 실무 스킬과 플러그인을 한 저장소에 담았어요."
+  },
+  {
+   "repo": "VoltAgent/awesome-claude-code-subagents",
+   "url": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+   "desc": "역할별 서브에이전트 모음",
+   "detail": "코드 리뷰어, 테스터, 보안 감사, 문서 작성자 등 100개 넘는 서브에이전트 정의를 복사해 쓰면 돼요."
+  },
+  {
+   "repo": "travisvn/awesome-claude-skills",
+   "url": "https://github.com/travisvn/awesome-claude-skills",
+   "desc": "Claude 스킬 리소스·튜토리얼",
+   "detail": "스킬 개념 설명, 커뮤니티 스킬, 만드는 법 자료를 모았어요."
+  },
+  {
+   "repo": "BehiSecc/awesome-claude-skills",
+   "url": "https://github.com/BehiSecc/awesome-claude-skills",
+   "desc": "Claude 스킬 큐레이션",
+   "detail": "분야별 Claude 스킬 링크 모음이에요."
+  },
+  {
+   "repo": "NomaDamas/k-skill",
+   "url": "https://github.com/NomaDamas/k-skill",
+   "desc": "한국인을 위한 스킬 130개+",
+   "detail": "아파트 실거래가, 법 조문·판례, 쿠팡·네이버·다나와 최저가, 당근 중고, KTX 시간표, 택배 조회까지 한국 생활 스킬을 모았어요."
+  },
+  {
+   "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+   "url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+   "desc": "게임 개발용 에이전트 스킬",
+   "detail": "유니티·고도·언리얼 등 게임 개발 작업용 스킬을 모았어요."
+  },
+  {
+   "repo": "davepoon/buildwithclaude",
+   "url": "https://github.com/davepoon/buildwithclaude",
+   "desc": "플러그인·에이전트·명령어 허브",
+   "detail": "Claude Code용 플러그인 마켓플레이스와 서브에이전트·명령어를 웹에서 검색해 설치할 수 있어요."
+  },
+  {
+   "repo": "wondelai/skills",
+   "url": "https://github.com/wondelai/skills",
+   "desc": "UX·마케팅·세일즈·전략 스킬 모음",
+   "detail": "원문 설명: agent skills for UX design, marketing/CRO, sales, product strategy, and growth based on books by Norman, Cialdini, Ries, Hormozi, and others."
+  },
+  {
+   "repo": "mohitagw15856/pm-claude-skills",
+   "url": "https://github.com/mohitagw15856/pm-claude-skills",
+   "desc": "35개 직무별 전문 스킬(PRD·회고 등)",
+   "detail": "원문 설명: professional skills across 35 professions, including PRDs, postmortems, and negotiation simulators."
+  },
+  {
+   "repo": "lawve-ai/awesome-legal-skills",
+   "url": "https://github.com/lawve-ai/awesome-legal-skills",
+   "desc": "법률 업무용 에이전트 스킬 모음",
+   "detail": "계약 검토, 컴플라이언스, 소송 준비 등 법무 자동화 스킬을 정리한 목록이에요."
+  },
+  {
+   "repo": "karanb192/awesome-claude-code-mods",
+   "url": "https://github.com/karanb192/awesome-claude-code-mods",
+   "desc": "Claude Code 모드 모음",
+   "detail": "원문 설명: A community list of Claude Code mods built with function hooks. Scans public GitHub repositories and shows what the validator reports each mod can read, write, run or send over the n"
+  },
+  {
+   "repo": "w95/awesome-claude-corporate-skills",
+   "url": "https://github.com/w95/awesome-claude-corporate-skills",
+   "desc": "기업 실무 스킬 166개",
+   "detail": "법무·인사·재무·컴플라이언스 등 회사 부서별로 정리한 Claude 스킬이에요."
+  },
+  {
+   "repo": "Vaquill-AI/awesome-legaltech",
+   "url": "https://github.com/Vaquill-AI/awesome-legaltech",
+   "desc": "리걸테크 오픈소스 모음",
+   "detail": "법률 AI, 문서 자동화, 판례 검색 등 리걸테크 도구와 데이터셋 목록이에요."
+  },
+  {
+   "repo": "darjeeling/awesome-mcp-korea",
+   "url": "https://github.com/darjeeling/awesome-mcp-korea",
+   "desc": "한국 서비스용 MCP 모음",
+   "detail": "네이버, 카카오, 공공데이터, 증권 등 국내 서비스에 연결되는 MCP를 정리한 목록이에요."
+  }
+ ],
+ "imported": {
+  "darjeeling/awesome-mcp-korea": [
+   {
+    "repo": "finalchild/law-mcp",
+    "section": "📜 Legal & Government"
+   },
+   {
+    "repo": "ChangooLee/mcp-kr-legislation",
+    "section": "📜 Legal & Government"
+   },
+   {
+    "repo": "rabqatab/LexLink-ko-mcp",
+    "section": "📜 Legal & Government"
+   },
+   {
+    "repo": "DrMoony/koregx",
+    "section": "📜 Legal & Government"
+   },
+   {
+    "repo": "seung23/lawtutor-mcp",
+    "section": "📜 Legal & Government"
+   },
+   {
+    "repo": "edward-kim-dev/kr-pc-deals-mcp",
+    "section": "🛒 Commerce & Retail"
+   },
+   {
+    "repo": "migusdn/KIS_MCP_Server",
+    "section": "🏦 Finance & Tax"
+   },
+   {
+    "repo": "Mrbaeksang/korea-stock-analyzer-mcp",
+    "section": "🏦 Finance & Tax"
+   },
+   {
+    "repo": "koreainvestment/koreainvestment-mcp",
+    "section": "🏦 Finance & Tax"
+   },
+   {
+    "repo": "snaiws/DART-mcp-server",
+    "section": "🏦 Finance & Tax"
+   },
+   {
+    "repo": "aesthetic-legalism5470/korean-dart-mcp",
+    "section": "🏦 Finance & Tax"
+   },
+   {
+    "repo": "sharebook-kr/pykrx-mcp",
+    "section": "🏦 Finance & Tax"
+   },
+   {
+    "repo": "redoxnet/mcp-lsopenapi",
+    "section": "🏦 Finance & Tax"
+   },
+   {
+    "repo": "gum798/A2A-MCP-RealEstate",
+    "section": "🏠 Real Estate"
+   },
+   {
+    "repo": "ChangooLee/mcp-kr-realestate",
+    "section": "🏠 Real Estate"
+   },
+   {
+    "repo": "jeong-sik/kakao-api-mcp-server",
+    "section": "🗺 Maps & Address"
+   },
+   {
+    "repo": "cgoinglove/mcp-server-kakao-map",
+    "section": "🗺 Maps & Address"
+   },
+   {
+    "repo": "CaChiJ/kakao-navigation-mcp-server",
+    "section": "🗺 Maps & Address"
+   },
+   {
+    "repo": "yeonupark/mcp-naver-map",
+    "section": "🗺 Maps & Address"
+   },
+   {
+    "repo": "flor3z-github/navermap-mcp-server",
+    "section": "🗺 Maps & Address"
+   },
+   {
+    "repo": "yunkee-lee/mcp-naver-maps",
+    "section": "🗺 Maps & Address"
+   },
+   {
+    "repo": "jikime/py-mcp-naver-search",
+    "section": "🔎 Search & Trends"
+   },
+   {
+    "repo": "harimkang/mcp-korea-tourism-api",
+    "section": "🌏 Tourism & Travel"
+   },
+   {
+    "repo": "pjookim/mcp-visit-korea",
+    "section": "🌏 Tourism & Travel"
+   },
+   {
+    "repo": "slicequeue/k-mfds-fooddb-mcp-server",
+    "section": "📊 Public Data"
+   },
+   {
+    "repo": "jaykim429/korea-statistic-MCP-cginside",
+    "section": "📊 Public Data"
+   },
+   {
+    "repo": "pinnaclesoft-ko/be-node-seoul-data-mcp",
+    "section": "📊 Public Data"
+   },
+   {
+    "repo": "slicequeue/k-targo-subway-mcp-server",
+    "section": "📊 Public Data"
+   },
+   {
+    "repo": "isnow890/data4library-mcp",
+    "section": "📊 Public Data"
+   },
+   {
+    "repo": "jayjodev/vivory-mcp",
+    "section": "📊 Public Data"
+   },
+   {
+    "repo": "ohhan777/korea_weather",
+    "section": "🌦 Weather"
+   },
+   {
+    "repo": "worker-ants/korea-weather-mcp",
+    "section": "🌦 Weather"
+   },
+   {
+    "repo": "Kinuk97/mcp-get-weather",
+    "section": "🌦 Weather"
+   },
+   {
+    "repo": "jikime/mcp-weather",
+    "section": "🌦 Weather"
+   },
+   {
+    "repo": "dbsxortime/mcp-weather-server",
+    "section": "🌦 Weather"
+   },
+   {
+    "repo": "dahlia/ko-stdict-mcp",
+    "section": "🔤 Korean NLP & Language"
+   },
+   {
+    "repo": "winterjung/mcp-korean-spell",
+    "section": "🔤 Korean NLP & Language"
+   },
+   {
+    "repo": "mskim8717/dooray-mcp",
+    "section": "🤝 Collaboration & Communication"
+   },
+   {
+    "repo": "hyeri0903/naver-works-mcp",
+    "section": "🤝 Collaboration & Communication"
+   },
+   {
+    "repo": "kwanok/dooray-mcp",
+    "section": "🤝 Collaboration & Communication"
+   },
+   {
+    "repo": "carasjung/kr-movie-tv-mcp",
+    "section": "🧩 Miscellaneous"
+   }
+  ],
+  "ComposioHQ/awesome-claude-skills": [
+   {
+    "repo": "smerchek/claude-epub-skill",
+    "section": "Document Processing"
+   },
+   {
+    "repo": "sboghossian/master-claude-for-legal",
+    "section": "Document Processing"
+   },
+   {
+    "repo": "ykdojo/claude-code-tips",
+    "section": "Development & Code Tools"
+   },
+   {
+    "repo": "yvgude/lean-ctx",
+    "section": "Development & Code Tools"
+   },
+   {
+    "repo": "coffeefuelbump/csv-data-summarizer-claude-skill",
+    "section": "Data & Analysis"
+   },
+   {
+    "repo": "Anjos2/recursive-research",
+    "section": "Data & Analysis"
+   },
+   {
+    "repo": "rampstackco/claude-skills",
+    "section": "Business & Marketing"
+   },
+   {
+    "repo": "emaynard/claude-family-history-research-skill",
+    "section": "Communication & Writing"
+   },
+   {
+    "repo": "uxKero/anydesign",
+    "section": "Creative & Media"
+   },
+   {
+    "repo": "wholiver/swiftui-design-skill",
+    "section": "Creative & Media"
+   },
+   {
+    "repo": "haunchen/n8n-skills",
+    "section": "Productivity & Organization"
+   },
+   {
+    "repo": "mhattingpete/claude-skills-marketplace",
+    "section": "Collaboration & Project Management"
+   },
+   {
+    "repo": "emory/ASD-AuDHD-PAI-Skills",
+    "section": "Assistive Technology"
+   }
+  ],
+  "BehiSecc/awesome-claude-skills": [
+   {
+    "repo": "ryanbbrown/revealjs-skill",
+    "section": "📄 Document Skills"
+   },
+   {
+    "repo": "activeloopai/hivemind",
+    "section": "🛠 Development & Code Tools"
+   },
+   {
+    "repo": "tomasz-tomczyk/crit",
+    "section": "🛠 Development & Code Tools"
+   },
+   {
+    "repo": "ZeroPointRepo/youtube-skills",
+    "section": "📊 Data & Analysis"
+   },
+   {
+    "repo": "Xquik-dev/x-twitter-scraper",
+    "section": "📊 Data & Analysis"
+   },
+   {
+    "repo": "shepsci/kaggle-skill",
+    "section": "📊 Data & Analysis"
+   },
+   {
+    "repo": "junshi-research/research-junshi",
+    "section": "🔬 Scientific & Research Tools"
+   },
+   {
+    "repo": "HeshamFS/materials-simulation-skills",
+    "section": "🔬 Scientific & Research Tools"
+   },
+   {
+    "repo": "ykdojo/paper-search",
+    "section": "🔬 Scientific & Research Tools"
+   },
+   {
+    "repo": "conorbronsdon/avoid-ai-writing",
+    "section": "✍️ Writing & Research"
+   },
+   {
+    "repo": "geekjourneyx/md2wechat-skill",
+    "section": "✍️ Writing & Research"
+   },
+   {
+    "repo": "talkstream/ru-text",
+    "section": "✍️ Writing & Research"
+   },
+   {
+    "repo": "Astro-Han/karpathy-llm-wiki",
+    "section": "📘 Learning & Knowledge"
+   },
+   {
+    "repo": "swarmclawai/swarmvault",
+    "section": "📘 Learning & Knowledge"
+   },
+   {
+    "repo": "praneybehl/llm-wiki-plugin",
+    "section": "📘 Learning & Knowledge"
+   },
+   {
+    "repo": "plasma-ai/wiki",
+    "section": "📘 Learning & Knowledge"
+   },
+   {
+    "repo": "Alisa0808/vox-director",
+    "section": "🎬 Media & Content"
+   },
+   {
+    "repo": "digitalsamba/claude-code-video-toolkit",
+    "section": "🎬 Media & Content"
+   },
+   {
+    "repo": "HUANGCHIHHUNGLeo/claude-real-video",
+    "section": "🎬 Media & Content"
+   },
+   {
+    "repo": "iart-ai/motion-skills",
+    "section": "🎬 Media & Content"
+   },
+   {
+    "repo": "MetcalfSolutions/Satori",
+    "section": "🏥 Health & Life Sciences"
+   },
+   {
+    "repo": "shmlkv/dna-claude-analysis",
+    "section": "🏥 Health & Life Sciences"
+   },
+   {
+    "repo": "backnotprop/plannotator",
+    "section": "🤝 Collaboration & Project Management"
+   },
+   {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "section": "🤝 Collaboration & Project Management"
+   },
+   {
+    "repo": "product-on-purpose/pm-skills",
+    "section": "🤝 Collaboration & Project Management"
+   },
+   {
+    "repo": "trailofbits/skills",
+    "section": "🛡 Security & Web Testing"
+   },
+   {
+    "repo": "BehiSecc/VibeSec-Skill",
+    "section": "🛡 Security & Web Testing"
+   },
+   {
+    "repo": "agamm/claude-code-owasp",
+    "section": "🛡 Security & Web Testing"
+   },
+   {
+    "repo": "jthack/ffuf_claude_skill",
+    "section": "🛡 Security & Web Testing"
+   },
+   {
+    "repo": "tanweai/pua",
+    "section": "🔧 Utility & Automation"
+   },
+   {
+    "repo": "rebelytics/one-skill-to-rule-them-all",
+    "section": "🔧 Utility & Automation"
+   },
+   {
+    "repo": "Johell1NS/browser-search",
+    "section": "🔧 Utility & Automation"
+   },
+   {
+    "repo": "sergebulaev/linkedin-skills",
+    "section": "🗂️ Collections"
+   },
+   {
+    "repo": "wondelai/skills",
+    "section": "🗂️ Collections"
+   },
+   {
+    "repo": "mohitagw15856/pm-claude-skills",
+    "section": "🗂️ Collections"
+   }
+  ],
+  "hesreallyhim/awesome-claude-code": [
+   {
+    "repo": "luongnv89/claude-howto",
+    "section": "Start Here"
+   },
+   {
+    "repo": "anthropics/claude-code-action",
+    "section": "From Anthropic"
+   },
+   {
+    "repo": "Piebald-AI/claude-code-system-prompts",
+    "section": "Documentation, Knowledge & Learning"
+   },
+   {
+    "repo": "zarazhangrui/codebase-to-course",
+    "section": "Documentation, Knowledge & Learning"
+   },
+   {
+    "repo": "VILA-Lab/Dive-into-Claude-Code",
+    "section": "Documentation, Knowledge & Learning"
+   },
+   {
+    "repo": "iurykrieger/claude-bedrock",
+    "section": "Obsidian"
+   },
+   {
+    "repo": "Oldcircle/geo-sleuth",
+    "section": "Research & Scientific Inquiry"
+   },
+   {
+    "repo": "pedrohcgs/claude-code-my-workflow",
+    "section": "Research & Scientific Inquiry"
+   },
+   {
+    "repo": "nicedreamzapp/claude-code-local",
+    "section": "Providers, Runtime & Integration Infrastructure"
+   },
+   {
+    "repo": "skills-directory/skill-codex",
+    "section": "Providers, Runtime & Integration Infrastructure"
+   },
+   {
+    "repo": "fcakyon/claude-codex-settings",
+    "section": "Providers, Runtime & Integration Infrastructure"
+   },
+   {
+    "repo": "sorkila/lockpaw",
+    "section": "Remote Control, Notifications & Voice I/O"
+   },
+   {
+    "repo": "ctoth/claudio",
+    "section": "Remote Control, Notifications & Voice I/O"
+   },
+   {
+    "repo": "Rich627/whatsapp-claude-plugin",
+    "section": "Remote Control, Notifications & Voice I/O"
+   },
+   {
+    "repo": "slopus/happy",
+    "section": "Alternative Clients"
+   },
+   {
+    "repo": "siteboon/claudecodeui",
+    "section": "Alternative Clients"
+   },
+   {
+    "repo": "0-AI-UG/cate",
+    "section": "Alternative Clients"
+   },
+   {
+    "repo": "jarrodwatts/claude-hud",
+    "section": "Status Lines"
+   },
+   {
+    "repo": "sirmalloc/ccstatusline",
+    "section": "Status Lines"
+   },
+   {
+    "repo": "Haleclipse/CCometixLine",
+    "section": "Status Lines"
+   },
+   {
+    "repo": "NahumLitvin/prismantis",
+    "section": "Mods"
+   },
+   {
+    "repo": "nicobailon/visual-explainer",
+    "section": "Design & UI/UX"
+   },
+   {
+    "repo": "SawyerHood/dev-browser",
+    "section": "Design & UI/UX"
+   },
+   {
+    "repo": "danjdewhurst/story-skills",
+    "section": "Writing & Prose Quality"
+   },
+   {
+    "repo": "andrewroxby/claude-style-patch",
+    "section": "Writing & Prose Quality"
+   },
+   {
+    "repo": "renezander030/capcut-cli",
+    "section": "Creative Media"
+   },
+   {
+    "repo": "antonbabenko/terraform-skill",
+    "section": "Infrastructure & DevOps"
+   },
+   {
+    "repo": "akin-ozer/cc-devops-skills",
+    "section": "Infrastructure & DevOps"
+   },
+   {
+    "repo": "dagger/container-use",
+    "section": "Security"
+   },
+   {
+    "repo": "EveryInc/compound-engineering-plugin",
+    "section": "Agent Orchestration"
+   },
+   {
+    "repo": "frankbria/ralph-claude-code",
+    "section": "Ralph Wiggum"
+   },
+   {
+    "repo": "mikeyobrien/ralph-orchestrator",
+    "section": "Ralph Wiggum"
+   },
+   {
+    "repo": "michael-denyer/pstack-claude",
+    "section": "SDLC"
+   },
+   {
+    "repo": "dailydotdev/daily",
+    "section": "Skills"
+   },
+   {
+    "repo": "NeoLabHQ/context-engineering-kit",
+    "section": "Memory & Context Persistence"
+   },
+   {
+    "repo": "huggingface/funes",
+    "section": "Memory & Context Persistence"
+   },
+   {
+    "repo": "nickelsec/bough",
+    "section": "Observability & Monitoring"
+   },
+   {
+    "repo": "rullerzhou-afk/clawd-on-desk",
+    "section": "Session Monitors"
+   },
+   {
+    "repo": "hoangsonww/Claude-Code-Agent-Monitor",
+    "section": "Session Monitors"
+   },
+   {
+    "repo": "m1ckc3s/claude-status-bar",
+    "section": "Session Monitors"
+   },
+   {
+    "repo": "getagentseal/codeburn",
+    "section": "Usage & Cost"
+   },
+   {
+    "repo": "tddworks/ClaudeBar",
+    "section": "Usage & Cost"
+   },
+   {
+    "repo": "disler/claude-code-hooks-multi-agent-observability",
+    "section": "Observability"
+   },
+   {
+    "repo": "simple10/agents-observe",
+    "section": "Observability"
+   },
+   {
+    "repo": "ColeMurray/claude-code-otel",
+    "section": "Observability"
+   },
+   {
+    "repo": "Piebald-AI/tweakcc",
+    "section": "Configuration"
+   },
+   {
+    "repo": "dyoshikawa/rulesync",
+    "section": "Configuration"
+   },
+   {
+    "repo": "disler/fixing-smartass-opus-5",
+    "section": "Configuration"
+   },
+   {
+    "repo": "nizos/tdd-guard",
+    "section": "Testing"
+   },
+   {
+    "repo": "undeadlist/claude-code-agents",
+    "section": "Testing"
+   },
+   {
+    "repo": "agent-sh/agnix",
+    "section": "Linting"
+   },
+   {
+    "repo": "pchalasani/claude-code-tools",
+    "section": "Multi-Purpose"
+   },
+   {
+    "repo": "karanb192/awesome-claude-code-mods",
+    "section": "Lists & Collections"
+   }
+  ],
+  "punkpeye/awesome-mcp-servers": [
+   {
+    "repo": "opentabs-dev/opentabs",
+    "section": "🔗 Aggregators"
+   },
+   {
+    "repo": "HelpCode-ai/anythingmcp",
+    "section": "🔗 Aggregators"
+   },
+   {
+    "repo": "1mcp-app/agent",
+    "section": "🔗 Aggregators"
+   },
+   {
+    "repo": "TheLunarCompany/lunar",
+    "section": "🔗 Aggregators"
+   },
+   {
+    "repo": "samuelgursky/davinci-resolve-mcp",
+    "section": "🎨 Art & Culture"
+   },
+   {
+    "repo": "jau123/MeiGen-AI-Design-MCP",
+    "section": "🎨 Art & Culture"
+   },
+   {
+    "repo": "diivi/aseprite-mcp",
+    "section": "🎨 Art & Culture"
+   },
+   {
+    "repo": "abhiemj/manim-mcp-server",
+    "section": "🎨 Art & Culture"
+   },
+   {
+    "repo": "cantian-ai/bazi-mcp",
+    "section": "🎨 Art & Culture"
+   },
+   {
+    "repo": "patrickchugh/terravision",
+    "section": "📐 Architecture & Design"
+   },
+   {
+    "repo": "awdr74100/figwright",
+    "section": "📐 Architecture & Design"
+   },
+   {
+    "repo": "Kentucky-ai/opentakeoff",
+    "section": "📐 Architecture & Design"
+   },
+   {
+    "repo": "cisco-open/network-sketcher",
+    "section": "📐 Architecture & Design"
+   },
+   {
+    "repo": "genomoncology/biomcp",
+    "section": "Biology, Medicine and Bioinformatics"
+   },
+   {
+    "repo": "the-momentum/apple-health-mcp-server",
+    "section": "Biology, Medicine and Bioinformatics"
+   },
+   {
+    "repo": "healthchainai/HealthChain",
+    "section": "Biology, Medicine and Bioinformatics"
+   },
+   {
+    "repo": "seleniumbase/SeleniumBase",
+    "section": "📂 Browser Automation"
+   },
+   {
+    "repo": "cloudflare/mcp-server-cloudflare",
+    "section": "☁️ Cloud Platforms"
+   },
+   {
+    "repo": "txn2/kubefwd",
+    "section": "☁️ Cloud Platforms"
+   },
+   {
+    "repo": "Flux159/mcp-server-kubernetes",
+    "section": "☁️ Cloud Platforms"
+   },
+   {
+    "repo": "hashicorp/terraform-mcp-server",
+    "section": "☁️ Cloud Platforms"
+   },
+   {
+    "repo": "ckanthony/openapi-mcp",
+    "section": "👨‍💻 Code Execution"
+   },
+   {
+    "repo": "alfonsograziano/node-code-sandbox-mcp",
+    "section": "👨‍💻 Code Execution"
+   },
+   {
+    "repo": "wonderwhy-er/DesktopCommanderMCP",
+    "section": "🤖 Coding Agents"
+   },
+   {
+    "repo": "Q00/ouroboros",
+    "section": "🤖 Coding Agents"
+   },
+   {
+    "repo": "mediar-ai/terminator",
+    "section": "🤖 Coding Agents"
+   },
+   {
+    "repo": "ezyang/codemcp",
+    "section": "🤖 Coding Agents"
+   },
+   {
+    "repo": "20000419/fauxnix",
+    "section": "🖥️ Command Line"
+   },
+   {
+    "repo": "bvisible/mcp-ssh-manager",
+    "section": "🖥️ Command Line"
+   },
+   {
+    "repo": "elie222/inbox-zero",
+    "section": "💬 Communication"
+   },
+   {
+    "repo": "chigwell/telegram-mcp",
+    "section": "💬 Communication"
+   },
+   {
+    "repo": "anypost/emailmd",
+    "section": "💬 Communication"
+   },
+   {
+    "repo": "antvis/mcp-server-chart",
+    "section": "👤 Customer Data Platforms"
+   },
+   {
+    "repo": "hustcc/mcp-mermaid",
+    "section": "👤 Customer Data Platforms"
+   },
+   {
+    "repo": "QuackbackIO/quackback",
+    "section": "👤 Customer Data Platforms"
+   },
+   {
+    "repo": "saurabhsharma2u/search-console-mcp",
+    "section": "👤 Customer Data Platforms"
+   },
+   {
+    "repo": "hustcc/mcp-echarts",
+    "section": "👤 Customer Data Platforms"
+   },
+   {
+    "repo": "nhost/nhost",
+    "section": "🗄️ Databases"
+   },
+   {
+    "repo": "crystaldba/postgres-mcp",
+    "section": "🗄️ Databases"
+   },
+   {
+    "repo": "benborla/mcp-server-mysql",
+    "section": "🗄️ Databases"
+   },
+   {
+    "repo": "qdrant/mcp-server-qdrant",
+    "section": "🗄️ Databases"
+   },
+   {
+    "repo": "designcomputer/mysql_mcp_server",
+    "section": "🗄️ Databases"
+   },
+   {
+    "repo": "dbt-labs/dbt-mcp",
+    "section": "📊 Data Platforms"
+   },
+   {
+    "repo": "gura105/operational-ontology",
+    "section": "📊 Data Platforms"
+   },
+   {
+    "repo": "storybookjs/storybook",
+    "section": "💻 Developer Tools"
+   },
+   {
+    "repo": "PostHog/posthog",
+    "section": "💻 Developer Tools"
+   },
+   {
+    "repo": "childrentime/reactuse",
+    "section": "🔒 Delivery"
+   },
+   {
+    "repo": "mckinsey/vizro",
+    "section": "🧮 Data Science Tools"
+   },
+   {
+    "repo": "zcaceres/markdownify-mcp",
+    "section": "🧮 Data Science Tools"
+   },
+   {
+    "repo": "datalayer/jupyter-mcp-server",
+    "section": "🧮 Data Science Tools"
+   },
+   {
+    "repo": "reading-plus-ai/mcp-server-data-exploration",
+    "section": "🧮 Data Science Tools"
+   },
+   {
+    "repo": "nteract/semiotic",
+    "section": "📊 Data Visualization"
+   },
+   {
+    "repo": "ganapativs/microcharts",
+    "section": "📊 Data Visualization"
+   },
+   {
+    "repo": "stack-chan/stack-chan",
+    "section": "📟 Embedded System"
+   },
+   {
+    "repo": "codeofaxel/Kiln",
+    "section": "📟 Embedded System"
+   },
+   {
+    "repo": "adancurusul/embedded-debugger-mcp",
+    "section": "📟 Embedded System"
+   },
+   {
+    "repo": "horw/esp-mcp",
+    "section": "📟 Embedded System"
+   },
+   {
+    "repo": "mickael-kerjean/filestash",
+    "section": "📂 File Systems"
+   },
+   {
+    "repo": "mark3labs/mcp-filesystem-server",
+    "section": "📂 File Systems"
+   },
+   {
+    "repo": "mamertofabian/mcp-everything-search",
+    "section": "📂 File Systems"
+   },
+   {
+    "repo": "atilaahmettaner/tradingview-mcp",
+    "section": "💰 Finance & Fintech"
+   },
+   {
+    "repo": "mnemox-ai/tradememory-protocol",
+    "section": "💰 Finance & Fintech"
+   },
+   {
+    "repo": "rootSunc/CNEquity",
+    "section": "💰 Finance & Fintech"
+   },
+   {
+    "repo": "ariadng/metatrader-mcp-server",
+    "section": "💰 Finance & Fintech"
+   },
+   {
+    "repo": "openaccountants/openaccountants",
+    "section": "💰 Finance & Fintech"
+   },
+   {
+    "repo": "Coding-Solo/godot-mcp",
+    "section": "🎮 Gaming"
+   },
+   {
+    "repo": "IvanMurzak/Unity-MCP",
+    "section": "🎮 Gaming"
+   },
+   {
+    "repo": "CoderGamester/mcp-unity",
+    "section": "🎮 Gaming"
+   },
+   {
+    "repo": "youichi-uda/godot-mcp-pro",
+    "section": "🎮 Gaming"
+   },
+   {
+    "repo": "adexbn/walk-kcal",
+    "section": "🏥 Health & Wellness"
+   },
+   {
+    "repo": "Extelligence-ai/bagel",
+    "section": "🏭 Industrial & IoT"
+   },
+   {
+    "repo": "jjsantos01/qgis_mcp",
+    "section": "🗺️ Location Services"
+   },
+   {
+    "repo": "cablate/mcp-google-map",
+    "section": "🗺️ Location Services"
+   },
+   {
+    "repo": "geolens-io/geolens",
+    "section": "🗺️ Location Services"
+   },
+   {
+    "repo": "jagan-shanmugam/open-streetmap-mcp",
+    "section": "🗺️ Location Services"
+   },
+   {
+    "repo": "mahdin75/gis-mcp",
+    "section": "🗺️ Location Services"
+   },
+   {
+    "repo": "pipeboard-co/meta-ads-mcp",
+    "section": "🎯 Marketing"
+   },
+   {
+    "repo": "gomarble-ai/facebook-ads-mcp-server",
+    "section": "🎯 Marketing"
+   },
+   {
+    "repo": "open-strategy-partners/osp_marketing_tools",
+    "section": "🎯 Marketing"
+   },
+   {
+    "repo": "stape-io/google-tag-manager-mcp-server",
+    "section": "🎯 Marketing"
+   },
+   {
+    "repo": "netdata/netdata",
+    "section": "📊 Monitoring"
+   },
+   {
+    "repo": "grafana/mcp-grafana",
+    "section": "📊 Monitoring"
+   },
+   {
+    "repo": "Higangssh/homebutler",
+    "section": "📊 Monitoring"
+   },
+   {
+    "repo": "mpeirone/zabbix-mcp-server",
+    "section": "📊 Monitoring"
+   },
+   {
+    "repo": "pydantic/logfire-mcp",
+    "section": "📊 Monitoring"
+   },
+   {
+    "repo": "wiltodelta/remove-ai-watermarks",
+    "section": "🎥 Multimedia Process"
+   },
+   {
+    "repo": "getopenscreen/openscreen",
+    "section": "🎥 Multimedia Process"
+   },
+   {
+    "repo": "ronak-create/FableCut",
+    "section": "🎥 Multimedia Process"
+   },
+   {
+    "repo": "ffroliva/gflow-cli",
+    "section": "🎥 Multimedia Process"
+   },
+   {
+    "repo": "sunriseapps/imagesorcery-mcp",
+    "section": "🎥 Multimedia Process"
+   },
+   {
+    "repo": "AmrDab/clawdcursor",
+    "section": "🖥️ OS Automation"
+   },
+   {
+    "repo": "mnemox-ai/idea-reality-mcp",
+    "section": "🔬 Research"
+   },
+   {
+    "repo": "rrrrrredy/research-toolkit",
+    "section": "🔬 Research"
+   },
+   {
+    "repo": "KnockOutEZ/wigolo",
+    "section": "🔎 Search & Data Extraction"
+   },
+   {
+    "repo": "blazickjp/arxiv-mcp-server",
+    "section": "🔎 Search & Data Extraction"
+   },
+   {
+    "repo": "devflowinc/trieve",
+    "section": "🔎 Search & Data Extraction"
+   },
+   {
+    "repo": "Aas-ee/open-webSearch",
+    "section": "🔎 Search & Data Extraction"
+   },
+   {
+    "repo": "semgrep/semgrep",
+    "section": "🔒 Security"
+   },
+   {
+    "repo": "LaurieWired/GhidraMCP",
+    "section": "🔒 Security"
+   },
+   {
+    "repo": "zinja-coder/jadx-ai-mcp",
+    "section": "🔒 Security"
+   },
+   {
+    "repo": "safedep/vet",
+    "section": "🔒 Security"
+   },
+   {
+    "repo": "karanb192/reddit-mcp-buddy",
+    "section": "🌐 Social Media"
+   },
+   {
+    "repo": "HagaiHen/facebook-mcp-server",
+    "section": "🌐 Social Media"
+   },
+   {
+    "repo": "taisly/agent",
+    "section": "🌐 Social Media"
+   },
+   {
+    "repo": "ihuzaifashoukat/x-use",
+    "section": "🌐 Social Media"
+   },
+   {
+    "repo": "r-huijts/strava-mcp",
+    "section": "🏃 Sports"
+   },
+   {
+    "repo": "JamsusMaximus/trainingpeaks-mcp",
+    "section": "🏃 Sports"
+   },
+   {
+    "repo": "sooperset/mcp-atlassian",
+    "section": "🎧 Support & Service Management"
+   },
+   {
+    "repo": "LetsFG/LetsFG",
+    "section": "🚆 Travel & Transportation"
+   },
+   {
+    "repo": "openbnb-org/mcp-server-airbnb",
+    "section": "🚆 Travel & Transportation"
+   },
+   {
+    "repo": "shaikhspeare/wanderlog-mcp",
+    "section": "🚆 Travel & Transportation"
+   },
+   {
+    "repo": "Tiberriver256/mcp-server-azure-devops",
+    "section": "🔄 Version Control"
+   },
+   {
+    "repo": "adhikasp/mcp-git-ingest",
+    "section": "🔄 Version Control"
+   },
+   {
+    "repo": "CrossPaste/crosspaste-desktop",
+    "section": "🏢 Workplace & Productivity"
+   },
+   {
+    "repo": "can4hou6joeng4/boss-agent-cli",
+    "section": "🏢 Workplace & Productivity"
+   },
+   {
+    "repo": "MarkusPfundstein/mcp-gsuite",
+    "section": "🏢 Workplace & Productivity"
+   },
+   {
+    "repo": "workopia/workopia-mcp",
+    "section": "🏢 Workplace & Productivity"
+   },
+   {
+    "repo": "Klavis-AI/klavis",
+    "section": "🛠️ Other Tools and Integrations"
+   },
+   {
+    "repo": "zerx-lab/FluxDown",
+    "section": "🛠️ Other Tools and Integrations"
+   },
+   {
+    "repo": "microsoft/mcp",
+    "section": "🛠️ Other Tools and Integrations"
+   },
+   {
+    "repo": "metorial/metorial",
+    "section": "🛠️ Other Tools and Integrations"
+   },
+   {
+    "repo": "rocketride-org/rocketride-server",
+    "section": "Frameworks"
+   },
+   {
+    "repo": "punkpeye/fastmcp",
+    "section": "Frameworks"
+   },
+   {
+    "repo": "heymrun/heym",
+    "section": "Frameworks"
+   },
+   {
+    "repo": "Nyrok/flompt",
+    "section": "Frameworks"
+   }
+  ],
+  "NomaDamas/k-skill": [
+   {
+    "skill": "railway-timetable",
+    "section": "🚉 이동·교통·여행"
+   },
+   {
+    "skill": "express-bus-booking",
+    "section": "🚉 이동·교통·여행"
+   },
+   {
+    "skill": "intercity-bus-booking",
+    "section": "🚉 이동·교통·여행"
+   },
+   {
+    "skill": "flight-ticket-search",
+    "section": "🚉 이동·교통·여행"
+   },
+   {
+    "skill": "myrealtrip-search",
+    "section": "🚉 이동·교통·여행"
+   },
+   {
+    "skill": "mofa-travel-safety",
+    "section": "🚉 이동·교통·여행"
+   },
+   {
+    "skill": "foresttrip-vacancy",
+    "section": "🚉 이동·교통·여행"
+   },
+   {
+    "skill": "seoul-subway-arrival",
+    "section": "🚉 이동·교통·여행"
+   },
+   {
+    "skill": "seoul-bike",
+    "section": "🚉 이동·교통·여행"
+   },
+   {
+    "skill": "seoul-density",
+    "section": "🚉 이동·교통·여행"
+   },
+   {
+    "skill": "korean-transit-route",
+    "section": "🚉 이동·교통·여행"
+   },
+   {
+    "skill": "kakao-map",
+    "section": "🚉 이동·교통·여행"
+   },
+   {
+    "skill": "highway-traffic-status",
+    "section": "🚉 이동·교통·여행"
+   },
+   {
+    "skill": "komsa-ferry-info",
+    "section": "🚉 이동·교통·여행"
+   },
+   {
+    "skill": "cheap-gas-nearby",
+    "section": "🚉 이동·교통·여행"
+   },
+   {
+    "skill": "parking-lot-search",
+    "section": "🚉 이동·교통·여행"
+   },
+   {
+    "skill": "ev-charger-nearby",
+    "section": "🚉 이동·교통·여행"
+   },
+   {
+    "skill": "subway-lost-property",
+    "section": "🚉 이동·교통·여행"
+   },
+   {
+    "skill": "real-estate-search",
+    "section": "🏠 부동산·주택"
+   },
+   {
+    "skill": "housing-official-price",
+    "section": "🏠 부동산·주택"
+   },
+   {
+    "skill": "housing-subscription-reference",
+    "section": "🏠 부동산·주택"
+   },
+   {
+    "skill": "gongsijiga-search",
+    "section": "🏠 부동산·주택"
+   },
+   {
+    "skill": "building-register-search",
+    "section": "🏠 부동산·주택"
+   },
+   {
+    "skill": "lh-notice-search",
+    "section": "🏠 부동산·주택"
+   },
+   {
+    "skill": "sh-notice-search",
+    "section": "🏠 부동산·주택"
+   },
+   {
+    "skill": "court-auction-notice-search",
+    "section": "🏠 부동산·주택"
+   },
+   {
+    "skill": "daangn-realty-search",
+    "section": "🏠 부동산·주택"
+   },
+   {
+    "skill": "korean-law-search",
+    "section": "⚖️ 법률·공공"
+   },
+   {
+    "skill": "korean-patent-search",
+    "section": "⚖️ 법률·공공"
+   },
+   {
+    "skill": "korean-privacy-terms",
+    "section": "⚖️ 법률·공공"
+   },
+   {
+    "skill": "iros-registry-automation",
+    "section": "⚖️ 법률·공공"
+   },
+   {
+    "skill": "corporate-registration-consulting",
+    "section": "⚖️ 법률·공공"
+   },
+   {
+    "skill": "court-payment-order-assistant",
+    "section": "⚖️ 법률·공공"
+   },
+   {
+    "skill": "assembly-bill-vote-search",
+    "section": "⚖️ 법률·공공"
+   },
+   {
+    "skill": "gov-overseas-trip-report",
+    "section": "⚖️ 법률·공공"
+   },
+   {
+    "skill": "sharenuri-facility-search",
+    "section": "⚖️ 법률·공공"
+   },
+   {
+    "skill": "nts-business-registration",
+    "section": "🏢 사업·상권·세무"
+   },
+   {
+    "skill": "biz-health-check",
+    "section": "🏢 사업·상권·세무"
+   },
+   {
+    "skill": "national-pension-workplace",
+    "section": "🏢 사업·상권·세무"
+   },
+   {
+    "skill": "nts-tax-delinquency",
+    "section": "🏢 사업·상권·세무"
+   },
+   {
+    "skill": "fsc-corporate-info",
+    "section": "🏢 사업·상권·세무"
+   },
+   {
+    "skill": "localdata-business-status",
+    "section": "🏢 사업·상권·세무"
+   },
+   {
+    "skill": "store-longevity-radar",
+    "section": "🏢 사업·상권·세무"
+   },
+   {
+    "skill": "korean-jangbu-for",
+    "section": "🏢 사업·상권·세무"
+   },
+   {
+    "skill": "popbill",
+    "section": "🏢 사업·상권·세무"
+   },
+   {
+    "skill": "naver-ad-performance",
+    "section": "🏢 사업·상권·세무"
+   },
+   {
+    "skill": "kstartup-search",
+    "section": "🏛️ 정부지원·조달"
+   },
+   {
+    "skill": "government-support-survey",
+    "section": "🏛️ 정부지원·조달"
+   },
+   {
+    "skill": "g2b-order-plan-search",
+    "section": "🏛️ 정부지원·조달"
+   },
+   {
+    "skill": "g2b-sanctioned-supplier",
+    "section": "🏛️ 정부지원·조달"
+   },
+   {
+    "skill": "d2b-notice-search",
+    "section": "🏛️ 정부지원·조달"
+   },
+   {
+    "skill": "s2b-notice-search",
+    "section": "🏛️ 정부지원·조달"
+   },
+   {
+    "skill": "boim-business-search",
+    "section": "🏛️ 정부지원·조달"
+   },
+   {
+    "skill": "ev-subsidy-status",
+    "section": "🏛️ 정부지원·조달"
+   },
+   {
+    "skill": "jobkorea-talent-search",
+    "section": "🧑‍💼 채용·일자리"
+   },
+   {
+    "skill": "saramin-talent-search",
+    "section": "🧑‍💼 채용·일자리"
+   },
+   {
+    "skill": "job-posting-match",
+    "section": "🧑‍💼 채용·일자리"
+   },
+   {
+    "skill": "daangn-jobs-search",
+    "section": "🧑‍💼 채용·일자리"
+   },
+   {
+    "skill": "korean-stock-search",
+    "section": "📈 금융·투자·경제통계"
+   },
+   {
+    "skill": "korean-bond-search",
+    "section": "📈 금융·투자·경제통계"
+   },
+   {
+    "skill": "k-dart",
+    "section": "📈 금융·투자·경제통계"
+   },
+   {
+    "skill": "company-analysis",
+    "section": "📈 금융·투자·경제통계"
+   },
+   {
+    "skill": "toss-investment",
+    "section": "📈 금융·투자·경제통계"
+   },
+   {
+    "skill": "daishin-report-search",
+    "section": "📈 금융·투자·경제통계"
+   },
+   {
+    "skill": "kosis-stats",
+    "section": "📈 금융·투자·경제통계"
+   },
+   {
+    "skill": "bok-ecos-stats",
+    "section": "📈 금융·투자·경제통계"
+   },
+   {
+    "skill": "government-bond-analysis",
+    "section": "📈 금융·투자·경제통계"
+   },
+   {
+    "skill": "multi-asset-morning-briefing",
+    "section": "📈 금융·투자·경제통계"
+   },
+   {
+    "skill": "market-event-impact",
+    "section": "📈 금융·투자·경제통계"
+   },
+   {
+    "skill": "emergency-room-beds",
+    "section": "💊 건강·의료"
+   },
+   {
+    "skill": "nhis-care-checkup-search",
+    "section": "💊 건강·의료"
+   },
+   {
+    "skill": "mfds-drug-safety",
+    "section": "💊 건강·의료"
+   },
+   {
+    "skill": "mfds-food-safety",
+    "section": "💊 건강·의료"
+   },
+   {
+    "skill": "animal-pharmacy-search",
+    "section": "💊 건강·의료"
+   },
+   {
+    "skill": "coupang-product-search",
+    "section": "🛒 쇼핑·중고거래"
+   },
+   {
+    "skill": "naver-shopping-search",
+    "section": "🛒 쇼핑·중고거래"
+   },
+   {
+    "skill": "danawa-price-search",
+    "section": "🛒 쇼핑·중고거래"
+   },
+   {
+    "skill": "market-kurly-search",
+    "section": "🛒 쇼핑·중고거래"
+   },
+   {
+    "skill": "daiso-product-search",
+    "section": "🛒 쇼핑·중고거래"
+   },
+   {
+    "skill": "olive-young-search",
+    "section": "🛒 쇼핑·중고거래"
+   },
+   {
+    "skill": "ohou-today-deal",
+    "section": "🛒 쇼핑·중고거래"
+   },
+   {
+    "skill": "bunjang-search",
+    "section": "🛒 쇼핑·중고거래"
+   },
+   {
+    "skill": "daangn-used-goods-search",
+    "section": "🛒 쇼핑·중고거래"
+   },
+   {
+    "skill": "daangn-cars-search",
+    "section": "🛒 쇼핑·중고거래"
+   },
+   {
+    "skill": "consumer-price-safety-search",
+    "section": "🛒 쇼핑·중고거래"
+   },
+   {
+    "skill": "delivery-tracking",
+    "section": "🛒 쇼핑·중고거래"
+   },
+   {
+    "skill": "kamis-food-price",
+    "section": "🍚 먹거리·주류"
+   },
+   {
+    "skill": "kakao-bar-nearby",
+    "section": "🍚 먹거리·주류"
+   },
+   {
+    "skill": "hola-poke-yeoksam",
+    "section": "🍚 먹거리·주류"
+   },
+   {
+    "skill": "bccard-eatpl-search",
+    "section": "🍚 먹거리·주류"
+   },
+   {
+    "skill": "heyyumi",
+    "section": "🍚 먹거리·주류"
+   },
+   {
+    "skill": "korean-marathon-schedule",
+    "section": "⚽ 스포츠·경기"
+   },
+   {
+    "skill": "kbo-results",
+    "section": "⚽ 스포츠·경기"
+   },
+   {
+    "skill": "kbl-results",
+    "section": "⚽ 스포츠·경기"
+   },
+   {
+    "skill": "kleague-results",
+    "section": "⚽ 스포츠·경기"
+   },
+   {
+    "skill": "lck-analytics",
+    "section": "⚽ 스포츠·경기"
+   },
+   {
+    "skill": "korean-cinema-search",
+    "section": "🎭 문화·역사·여가"
+   },
+   {
+    "skill": "ticket-availability",
+    "section": "🎭 문화·역사·여가"
+   },
+   {
+    "skill": "kopis-performance-search",
+    "section": "🎭 문화·역사·여가"
+   },
+   {
+    "skill": "lotto-results",
+    "section": "🎭 문화·역사·여가"
+   },
+   {
+    "skill": "joseon-sillok-search",
+    "section": "🎭 문화·역사·여가"
+   },
+   {
+    "skill": "korean-heritage-search",
+    "section": "🎭 문화·역사·여가"
+   },
+   {
+    "skill": "religious-facility-search",
+    "section": "⛪ 종교"
+   },
+   {
+    "skill": "korean-scholarship-search",
+    "section": "🎓 교육·장학·학술"
+   },
+   {
+    "skill": "k-schoollunch-menu",
+    "section": "🎓 교육·장학·학술"
+   },
+   {
+    "skill": "library-book-search",
+    "section": "🎓 교육·장학·학술"
+   },
+   {
+    "skill": "keris-academic-search",
+    "section": "🎓 교육·장학·학술"
+   },
+   {
+    "skill": "naver-news-search",
+    "section": "📰 뉴스·정보·리서치"
+   },
+   {
+    "skill": "hankookilbo-news",
+    "section": "📰 뉴스·정보·리서치"
+   },
+   {
+    "skill": "naver-blog-research",
+    "section": "📰 뉴스·정보·리서치"
+   },
+   {
+    "skill": "geeknews-search",
+    "section": "📰 뉴스·정보·리서치"
+   },
+   {
+    "skill": "korean-spell-check",
+    "section": "✍️ 한국어·글쓰기"
+   },
+   {
+    "skill": "korean-humanizer",
+    "section": "✍️ 한국어·글쓰기"
+   },
+   {
+    "skill": "korean-slang-writing",
+    "section": "✍️ 한국어·글쓰기"
+   },
+   {
+    "skill": "korean-middle-korean",
+    "section": "✍️ 한국어·글쓰기"
+   },
+   {
+    "skill": "korean-character-count",
+    "section": "✍️ 한국어·글쓰기"
+   },
+   {
+    "skill": "korea-weather",
+    "section": "🌤️ 날씨·환경"
+   },
+   {
+    "skill": "seoul-weather-risk",
+    "section": "🌤️ 날씨·환경"
+   },
+   {
+    "skill": "fine-dust-location",
+    "section": "🌤️ 날씨·환경"
+   },
+   {
+    "skill": "han-river-water-level",
+    "section": "🌤️ 날씨·환경"
+   },
+   {
+    "skill": "korean-holiday-calendar",
+    "section": "🧺 생활·기타"
+   },
+   {
+    "skill": "zipcode-search",
+    "section": "🧺 생활·기타"
+   },
+   {
+    "skill": "household-waste-info",
+    "section": "🧺 생활·기타"
+   },
+   {
+    "skill": "public-restroom-nearby",
+    "section": "🧺 생활·기타"
+   },
+   {
+    "skill": "donation-place-search",
+    "section": "🧺 생활·기타"
+   },
+   {
+    "skill": "kakaotalk-mac",
+    "section": "🧺 생활·기타"
+   },
+   {
+    "skill": "hwp",
+    "section": "🛠️ 개발자·문서 도구"
+   },
+   {
+    "skill": "rhwp-edit",
+    "section": "🛠️ 개발자·문서 도구"
+   },
+   {
+    "skill": "rhwp-advanced",
+    "section": "🛠️ 개발자·문서 도구"
+   },
+   {
+    "skill": "kr-whois-lookup",
+    "section": "🛠️ 개발자·문서 도구"
+   },
+   {
+    "skill": "saju-fortune",
+    "section": "🔮 운세·작명"
+   },
+   {
+    "skill": "naming-house",
+    "section": "🔮 운세·작명"
+   }
+  ]
+ }
+}

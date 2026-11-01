@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>JH Claude Hub</title>
+<meta name="description" content="각종 콘텐츠가 추천하는 Claude 스킬·MCP·플러그인·툴을 한곳에서 볼 수 있는 사이트.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="path">~/<b>jh</b>/my-claude-hub</p>
+    <h1><span>JH</span> Claude Hub</h1>
+    <div class="memo">
+      <p>각종 콘텐츠들이 추천하는 스킬, MCP, 플러그인, 툴들을 하나의 사이트에서 볼 수 있도록 모았어요!</p>
+      <p>인스타그램, GitHub 트렌딩, 개발자 커뮤니티에서 소개된 것들을 하는 일 기준으로 나눠 두었어요. 위 탭에서 분야를 고르고, 아래에서 카테고리를 골라 보세요.</p>
+    </div>
+    <p class="meta" id="meta"></p>
+  </div>
+</header>
+
+<div class="bar">
+  <div class="wrap">
+    <div class="row">
+      <input id="q" type="search" placeholder="검색해 보세요 — 노션, 엑셀, hwp, 법령, 메모리 …" aria-label="검색">
+      <select id="type" aria-label="종류">
+        <option value="">종류 전체</option><option>MCP</option><option>Skill</option><option>Plugin</option><option>Tool</option><option>SDK</option><option>Guide</option><option>List</option>
+      </select>
+      <select id="src" aria-label="표시">
+        <option value="">표시 전체</option><option value="official">공식만</option><option value="insta">인스타 추천</option><option value="hot">요즘 인기</option><option value="kdev">국내 제작</option>
+      </select>
+      <select id="sort" aria-label="정렬">
+        <option value="stars">스타순</option><option value="forks">포크순</option><option value="name">이름순</option>
+      </select>
+    </div>
+    <nav class="tabs" id="tabs" role="tablist" aria-label="분야"></nav>
+  </div>
+</div>
+<div class="wrap"><div class="cats" id="cats" aria-label="카테고리"></div></div>
+
+<div class="wrap layout">
+  <main>
+    <div class="rhead"><h2 id="ctitle">전체</h2><p id="cdesc"></p><span class="count" id="count"></span></div>
+    <ul class="list" id="grid"></ul>
+    <div class="more" id="more" hidden><button type="button" id="moreBtn"></button></div>
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h4>스타·포크</h4>
+        <p id="upd">스타·포크는 매일 아침 8:17에 자동으로 갱신돼요.</p>
+        <p>스타가 많다고 꼭 나에게 맞는 건 아니니, 설명을 먼저 읽어 보세요!</p>
+      </div>
+      <div>
+        <h4>표시</h4>
+        <p><b style="color:var(--pick)">공식</b> 회사·기관 계정이나 그 회사 CEO가 직접 만든 것</p>
+        <p><b style="color:var(--heat)">요즘 인기</b> GitHub 트렌딩에 오른 것</p>
+        <p>인스타 추천 · 국내 제작 — 인스타에서 소개된 것 / 한국 개발자·기관이 만든 것</p>
+      </div>
+      <div>
+        <h4>종류</h4>
+        <p>MCP 앱·데이터를 Claude에 연결하는 서버 · Skill Claude가 필요할 때 불러 쓰는 작업 지침 · Plugin 스킬·명령어 묶음 · Tool 따로 실행하는 앱</p>
+      </div>
+    </div>
+    <p class="sig">made by JH · 꾸준히 추가하고 있어요</p>
+  </div>
+</footer>
+</body>
+</html>

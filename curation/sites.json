@@ -1,0 +1,170 @@
+[
+ {
+  "name": "GeekNews · Show GN",
+  "kind": "커뮤니티",
+  "url": "https://news.hada.io/show",
+  "desc": "한국 개발자들이 직접 만든 도구를 공유하는 곳",
+  "detail": "Claude Code 플러그인·스킬·MCP를 만든 사람이 직접 소개글을 올려요. 🇰🇷 배지가 붙은 것 상당수가 여기서 왔어요."
+ },
+ {
+  "name": "GPTers",
+  "kind": "커뮤니티",
+  "url": "https://www.gpters.org",
+  "desc": "국내 최대 AI 활용 스터디 커뮤니티",
+  "detail": "직장인·마케터·공무원 등 비개발자가 Claude·ChatGPT 활용 사례와 프롬프트, 자동화 레시피를 공유해요."
+ },
+ {
+  "name": "공픈클로",
+  "kind": "커뮤니티",
+  "url": "https://github.com/hosungseo/gonpunclaw-web",
+  "desc": "공무원 AI 업무자동화 100선",
+  "detail": "공공기관 업무에 AI를 붙인 사례를 모은 사이트예요."
+ },
+ {
+  "name": "요즘IT",
+  "kind": "아티클",
+  "url": "https://yozm.wishket.com",
+  "desc": "국내 IT 실무 아티클",
+  "detail": "Claude Code, MCP, 스킬 활용기를 실무자가 정리한 글이 많아요."
+ },
+ {
+  "name": "위키독스",
+  "kind": "아티클",
+  "url": "https://wikidocs.net",
+  "desc": "무료 한국어 전자책",
+  "detail": "Claude Code 입문, MCP 연동 등 무료 한국어 책을 볼 수 있어요."
+ },
+ {
+  "name": "Reddit r/ClaudeAI",
+  "kind": "커뮤니티",
+  "url": "https://www.reddit.com/r/ClaudeAI/",
+  "desc": "전 세계 Claude 사용자 커뮤니티",
+  "detail": "새로 나온 스킬·MCP 후기와 팁이 가장 빨리 올라와요."
+ },
+ {
+  "name": "Reddit r/mcp",
+  "kind": "커뮤니티",
+  "url": "https://www.reddit.com/r/mcp/",
+  "desc": "MCP 전문 서브레딧",
+  "detail": "새 MCP 서버 공개와 설정 질문이 활발해요."
+ },
+ {
+  "name": "Hacker News",
+  "kind": "커뮤니티",
+  "url": "https://news.ycombinator.com",
+  "desc": "해외 개발자 뉴스",
+  "detail": "Show HN에 화제가 된 에이전트 도구가 먼저 올라와요."
+ },
+ {
+  "name": "GitHub Trending",
+  "kind": "랭킹",
+  "url": "https://github.com/trending",
+  "desc": "오늘·이번 주 스타 급상승 레포",
+  "detail": "🔥 배지가 붙은 레포가 여기서 왔어요. since=weekly로 바꿔 보세요."
+ },
+ {
+  "name": "Smithery",
+  "kind": "MCP 디렉터리",
+  "url": "https://smithery.ai",
+  "desc": "MCP 서버 검색·설치 마켓",
+  "detail": "MCP 서버를 검색하고 클릭 몇 번으로 Claude에 연결해요."
+ },
+ {
+  "name": "MCP.so",
+  "kind": "MCP 디렉터리",
+  "url": "https://mcp.so",
+  "desc": "대형 MCP 서버 디렉터리",
+  "detail": "카테고리별로 수만 개 MCP 서버를 둘러볼 수 있어요."
+ },
+ {
+  "name": "Glama MCP",
+  "kind": "MCP 디렉터리",
+  "url": "https://glama.ai/mcp/servers",
+  "desc": "품질 점수가 있는 MCP 목록",
+  "detail": "보안·라이선스·품질 점수로 MCP 서버를 비교해요."
+ },
+ {
+  "name": "PulseMCP",
+  "kind": "MCP 디렉터리",
+  "url": "https://www.pulsemcp.com",
+  "desc": "MCP 서버·클라이언트 소식",
+  "detail": "인기 순위와 주간 뉴스레터로 MCP 생태계를 따라가요."
+ },
+ {
+  "name": "MCP Market",
+  "kind": "MCP 디렉터리",
+  "url": "https://mcpmarket.com",
+  "desc": "MCP·스킬 마켓",
+  "detail": "MCP 서버와 Claude 스킬을 함께 찾아볼 수 있어요."
+ },
+ {
+  "name": "공식 MCP Registry",
+  "kind": "MCP 디렉터리",
+  "url": "https://registry.modelcontextprotocol.io",
+  "desc": "MCP 공식 레지스트리",
+  "detail": "MCP 프로젝트가 운영하는 공식 서버 등록소예요."
+ },
+ {
+  "name": "Claude Marketplaces",
+  "kind": "스킬 디렉터리",
+  "url": "https://claudemarketplaces.com",
+  "desc": "Claude 플러그인·스킬 마켓 모음",
+  "detail": "플러그인 마켓플레이스와 스킬을 검색해요. k-skill 같은 한국 스킬도 있어요."
+ },
+ {
+  "name": "ClaudeMarket",
+  "kind": "스킬 디렉터리",
+  "url": "https://www.claudemarket.ai",
+  "desc": "Claude용 스킬·MCP·플러그인 총망라",
+  "detail": "수천 개 항목을 페이지별로 둘러볼 수 있어요."
+ },
+ {
+  "name": "SkillsMP",
+  "kind": "스킬 디렉터리",
+  "url": "https://skillsmp.com",
+  "desc": "에이전트 스킬 검색 엔진",
+  "detail": "깃허브에 올라온 SKILL.md를 모아 검색해요."
+ },
+ {
+  "name": "aitmpl (Claude Code Templates)",
+  "kind": "스킬 디렉터리",
+  "url": "https://www.aitmpl.com",
+  "desc": "에이전트·명령어·MCP 템플릿",
+  "detail": "claude-code-templates의 웹 버전으로 설치 명령을 바로 복사해요."
+ },
+ {
+  "name": "prompts.chat",
+  "kind": "프롬프트",
+  "url": "https://prompts.chat",
+  "desc": "프롬프트 공유 플랫폼(구 awesome-chatgpt-prompts)",
+  "detail": "프롬프트와 함께 스킬·워크플로우도 공유돼요. MCP로 연결 가능."
+ },
+ {
+  "name": "skills.sh",
+  "kind": "스킬 디렉터리",
+  "url": "https://skills.sh",
+  "desc": "Vercel의 오픈 에이전트 스킬 리더보드",
+  "detail": "설치 수 순위로 인기 스킬을 보여주고, npx skills add 한 줄로 Claude Code·Cursor 등에 설치해요."
+ },
+ {
+  "name": "MCP.directory",
+  "kind": "MCP 디렉터리",
+  "url": "https://mcp.directory",
+  "desc": "MCP 서버·스킬 디렉터리",
+  "detail": "MCP 서버와 관련 스킬을 설명과 함께 찾아볼 수 있어요."
+ },
+ {
+  "name": "Claude Code Meetup Seoul",
+  "kind": "오프라인 모임",
+  "url": "https://luma.com/bukeklzx",
+  "desc": "서울 Claude Code 밋업",
+  "detail": "국내 Claude Code 사용자들이 직접 만나 활용 사례를 나누는 모임이에요."
+ },
+ {
+  "name": "Anthropic Academy",
+  "kind": "공식 강의",
+  "url": "https://anthropic.skilljar.com",
+  "desc": "Anthropic 공식 무료 강의",
+  "detail": "Claude 101, AI Fluency, MCP, Claude Code 과정을 무료로 듣고 수료증을 받아요."
+ }
+]
